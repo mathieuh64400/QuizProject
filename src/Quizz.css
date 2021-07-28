@@ -1,0 +1,50 @@
+.app {
+    background-image: url('./fond_ecran_maquette.png');
+}
+
+.cadrecentrale {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 50px;
+    border: solid 1px #fdee00;
+    margin-top: 7.5%;
+    margin-left: 25%;
+    opacity:95%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.text {
+
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+
+}
+
+button {
+    margin-top: 3%;
+    margin-bottom: 10%;
+    margin-left: 40%;
+    width: 25%;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    height: 5em;
+    border: 5px solid black;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+img {
+    width: 50%;
+    margin-left: 25%;
+}
